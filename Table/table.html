@@ -1,67 +1,139 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+    table, th, td { 
+        border: 2px solid white;
+        border-collapse: collapse;
+        background-color: grey;
+    }
+Table {
+    border-spacing:7px
+}
+th, td {
+    Padding-top: 10px;
+    Padding-bottom: 5px;
+    Padding-left: 5px;
+    Padding-right: 5px;
+}
+tbody {color: aqua}
+tfoot {color: yellow}
+</style>
 <title></title>
 
 </head>
 <body>
 <table>
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Weight</th>
-        <th>Price/lbs</th>
-        <th>lbs. Ordered</th>
-        <th>Total Price</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Cheese</td>
-        <td>1 lb</td>
-        <td>$3.00</td>
-        <td>1</td>
-        <td>$3.00</td>
-    </tr>
-    <tr>
-        <td>5</td>
-        <td>Spinach</td>
-        <td>1 lb</td>
-        <td>$2:50</td>
-        <td>2</td>
-        <td>$5.00</td>
-    </tr>
-    <tr>
-        <td>17</td>
-        <td>Bread</td>
-        <td>1 lb</td>
-        <td>$2.00</td>
-        <td>1</td>
-        <td>$2.00</td>
-    </tr>
-    <tr>
-        <td>28</td>
-        <td>Rice Cakes</td>
-        <td>1 lb</td>
-        <td>$3.50</td>
-        <td>3</td>
-        <td>$10.50</td>
-    </tr>
-    <tr>
-        <td>79</td>
-        <td>Apples</td>
-        <td>1 lb</td>
-        <td>$1.50</td>
-        <td>4</td>
-        <td>$6.00</td>
-    </tr>
-    <tr>
-        <td>104</td>
-        <td>Tea</td>
-        <td>1 lb</td>
-        <td>$0.50</td>
-        <td>1</td>
-        <td>$0.50</td>
-    </tr>
+    <caption> Shopping List</caption>
+    <thead style="text-align:center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Weight</th>
+            <th>Price/lbs</th>
+            <th>lbs. Ordered</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Cheese</td>
+            <td>1 lb</td>
+            <td>$3.00</td>
+            <td>1</td>
+            <td>$3.00</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>5</td>
+            <td>Spinach</td>
+            <td>1 lb</td>
+            <td>$2:50</td>
+            <td>2</td>
+            <td>$5.00</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>17</td>
+            <td>Bread</td>
+            <td>1 lb</td>
+            <td>$2.00</td>
+            <td>1</td>
+            <td>$2.00</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>28</td>
+            <td>Rice Cakes</td>
+            <td>1 lb</td>
+            <td>$3.50</td>
+            <td>3</td>
+            <td>$10.50</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>79</td>
+            <td>Apples</td>
+            <td>1 lb</td>
+            <td>$1.50</td>
+            <td>4</td>
+            <td>$6.00</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>104</td>
+            <td>Tea</td>
+            <td>1 lb</td>
+            <td>$0.50</td>
+            <td>1</td>
+            <td>$0.50</td>
+        </tr>
+    </tbody>
+</table>
+<p> </p>
+<table>
+    <Caption>Pet Store Inhabitants</Caption>
+    <thead>
+        <tr>
+            <th>Animals</th>
+            <th>Male</th>
+            <th>Female</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dog</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Cat</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td>Bird</td>
+            <td>2</td>
+            <td>8</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>12</td>
+            <td>21</td>
+        </tr>
+    </tfoot>
 </table>
 </body>
 </html>
