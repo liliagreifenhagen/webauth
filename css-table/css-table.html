@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+table, th, td {
+    border: 3px solid seagreen;
+    border-collapse: collapse;
+}
+table {
+    width: 50%;
+}
+thead, tbody {
+    height: 30px;
+}
+thead {
+    text-align: center;
+    background-color: aliceblue;
+}
+tbody {
+    text-align: right;
+    padding: 30px;
+    background-color: palevioletred
+}
+caption {
+    background-color: orange;
+}
+tfoot {
+    background-color: palegoldenrod
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>Pet Types</caption>
+    <thead>
+    <tr>
+        <th>Dogs</th>
+        <th>Fish</th>
+        <th>Cats</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Pitbull</td>
+        <td>Beta Fish</td>
+        <td>Bengal</td>
+    </tr>
+    <tr>
+        <td>Black Lab</td>
+        <td>Goldfish</td>
+        <td>Maine Coon</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>Owned</td>
+        <td>Onwed</td>
+        <td>Unowned</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
