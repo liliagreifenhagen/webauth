@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Box Model</title>
+<style>
+#div1 {
+    width:150px;
+    border-style: dashed;
+    border-width:3px;
+    margin:30px;
+    outline-style: outset;
+    outline-color: green;
+    outline-width:6px;
+    padding: 10px;
+}
+#div2 {
+    width:100px;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-top-color:aqua;
+    border-bottom-color: aqua;
+    border-right-style: double;
+    border-left-style: double;
+    border-right-width:8px;
+    border-left-width: 8px;
+    border-right-color:  yellow;
+    border-left-color:yellow;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right:6px;
+    padding-left:6px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:20px;
+    margin-left:20px;
+    outline-style: dashed;
+    outline-color: lightgoldenrodyellow;
+    outline-width:10px;
+}
+#div3 {
+    width:130px;
+    border-top-style:inset;
+    border-bottom-style:dashed;
+    border-top-width: 5px;
+    border-bottom-width: 7px;
+    border-top-color:purple;
+    border-bottom-color:limegreen;
+    border-right-style: double;
+    border-left-style: hidden;
+    border-right-width: 6px;
+    border-left-width: 12px;
+    border-right-color: red;
+    border-left-color:aquamarine;
+    padding-top: 18px;
+    padding-bottom: 2px;
+    padding-right:24px;
+    padding-left:15px;
+    margin-top: 90px;
+    margin-bottom: 7px;
+    margin-right:45px;
+    margin-left:35px;
+    outline-style:groove;
+    outline-color: yellow;
+    outline-width:30px; 
+}
+</style>
+</head>
+<body>
+<div id="div1"><p>
+    content width: 150px <br>
+    top margin: 30px <br>
+    right margin: 30px <br>
+    bottom margin: 30px <br>
+    left margin: 30px <br>
+    top border: 3px <br>
+    right border: 3px <br>
+    bottom border: 3px <br>
+    left border: 3px <br>
+    top padding: 10px <br>
+    right padding: 10px <br>
+    bottom padding: 10px <br>
+    left padding: 10px <br>
+    outline thickness: 6px <br>
+    TOTAL BOX WIDTH: 248px
+    </p>
+    </div>
+<div id="div2"><p>
+    content width: 100px <br>
+    top margin: 50px <br>
+    right margin: 20px <br>
+    bottom margin: 50px <br>
+    left margin: 20px <br>
+    top border: 4px <br>
+    right border: 8px <br>
+    bottom border: 4px <br>
+    left border: 8px <br>
+    top padding: 12px <br>
+    right padding: 6px <br>
+    bottom padding: 12px <br>
+    left padding: 6px <br>
+    outline thickness: 10px <br>
+    TOTAL BOX WIDTH: 188px
+    </p>
+    </div>
+<div id="div3"><p>
+    content width: 130px <br>
+    top margin: 90px <br>
+    right margin: 45px <br>
+    bottom margin: 7px <br>
+    left margin: 35px <br>
+    top border: 5px <br>
+    right border: 6px <br>
+    bottom border: 7px <br>
+    left border: 12px <br>
+    top padding: 18px <br>
+    right padding: 24px <br>
+    bottom padding: 2px <br>
+    left padding: 15px <br>
+    outline thickness: 30px <br>
+    TOTAL BOX WIDTH: 327
+    </p>
+    </div>
+</body>
+</html>
