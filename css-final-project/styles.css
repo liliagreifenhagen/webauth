@@ -1,0 +1,162 @@
+body {
+    background-color: darkslategray;
+    color: lightcyan;
+    font: size 6px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(59, 59, 59);
+  }
+.topnav a {
+    float: left;
+    display: block;
+    color: lightcyan;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: lightcyan;
+  }
+.topnav a:hover {
+    background-color: gold;
+    color: darkslategray;
+  }
+html {
+    font-family:cursive, sans-serif;
+}
+.footer {
+    position: fixed;
+    width:100%;
+    bottom:0;
+    left:0;
+    background-color:rgb(59, 59, 59);
+    caret-color: lightcyan;
+    font-size: 15px;
+}
+.header {
+    color:gold;
+    padding:20px;
+}
+.column {
+    Color:lightcyan;
+    float: center;
+    width:100%;
+    padding:30px;
+    overflow: auto;
+}
+#milwaukeeimg1 {
+  width: 480px;
+  height:270px;
+  padding:40px;
+  left:50px;
+}
+#milwaukeeimg2 {
+  width:400px;
+  height:300px;
+  padding:40px;
+  right:50px;
+}
+#emailheader {
+  color:gold;
+  background-color: rgb(59, 59, 59);
+  text-align: left;
+  width:100%;
+}
+#emailtext {
+  color:lightgoldenrodyellow;
+  background-color: rgb(59, 59, 59);
+  text-align: left;
+  width:100%;
+  padding-bottom:50px;
+}
+.row::after {
+  content:"";
+  display:table;
+  clear:both;
+}
+#acco {
+  background-color:rgb(70, 70, 70);
+  color:lightcyan;
+  text-align:center;
+  border-style:solid;
+  border-color:rgb(59, 59, 59);
+}
+#accom {
+  background-color:rgb(70, 70, 70);
+  color:lightcyan;
+  text-align:left;
+  border-style:solid;
+  border-color:rgb(59, 59, 59);
+}
+a:link {
+  color:lightcyan;
+}
+a:visited {
+  color:gold;
+}
+a:hover {
+  color:cyan;
+}
+a:active {
+  color:cyan;
+  text-decoration: underline;
+}
+#accoimg {
+  padding:7px;
+}
+#restaurants {
+  background-color:rgb(70, 70, 70);
+  color:lightcyan;
+  text-align:left;
+  border-style:solid;
+  border-color:rgb(59, 59, 59);
+}
+.columnrestaurants {
+  Color:lightcyan;
+  float: left;
+  width:45%;
+  padding:30px;
+}
+#resturantimg {
+  padding:10px;
+}
+.columnaccomodations {
+  Color:lightcyan;
+  float: left;
+  width:45%;
+  padding:30px;
+}
+.history {
+  color:lightcyan;
+  float:left;
+  width:60%;
+  padding: 30px;
+}
+.historypics {
+  padding:30px;
+  float:right;
+  width:30%;
+  right:0;
+}
+h2 {
+  color:rgb(255,215,0);
+}
+#photoimg {
+  padding:10px;
+  float: center;
+  vertical-align:middle;
+}
+.columnphotos {
+  background-color:rgb(70, 70, 70);
+  color:lightcyan;
+  text-align:left;
+  border-style:solid;
+  border-color:rgb(59, 59, 59);
+  width:45%;
+  float:left;
+}
+.columndirections {
+  color:lightcyan;
+  text-align:left;
+  width:45%;
+  float:left;
+  Padding:30px;
+}
